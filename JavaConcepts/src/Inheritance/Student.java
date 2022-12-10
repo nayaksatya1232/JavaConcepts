@@ -8,6 +8,12 @@ public class Student implements Relatable {
 		this.age = age;
 		this.name= name;
 	}
+	
+	@Override
+	public String toString() {
+		return "Student [age=" + age + ", name=" + name + "]";
+	}
+
 	@Override
 	public int isLargerThan(Relatable obj) {
 		Student std = (Student)obj;
