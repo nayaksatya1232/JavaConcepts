@@ -1,4 +1,4 @@
-package concepts;
+package enumBasics;
 
 /*
  * Enum is converted to class in background which has static final objects of itself
