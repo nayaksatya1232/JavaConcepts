@@ -7,10 +7,11 @@ public class StringToDate {
 	public static void main(String[] args) throws Exception {
 		String d1 = "23/02/1997";
 		String d2 = "23-Feb-1997";
+		String d6 = "23-Feb-1997 22:12:21";
 		String d3 = "02 23, 1997";
 		String d4 = "Sun, Feb 23 1997";
 		String d5 = "Sun, Feb 23 1997 22:12:21";
-		String d6 = "23-Feb-1997 22:12:21";
+		
 
 		SimpleDateFormat f1 = new SimpleDateFormat("dd/MM/yyyy");
 		SimpleDateFormat f2 = new SimpleDateFormat("dd-MMM-yyyy");
